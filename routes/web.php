@@ -15,3 +15,4 @@ Route::get('/', 'QrController@index');
 Route::get('/words', 'QrController@words');
 Route::get('/tweet', 'QrController@tweet');
 Route::get('/words-url', 'QrController@words_url');
+Route::get('/show-tweet', 'QrController@getTweet');
